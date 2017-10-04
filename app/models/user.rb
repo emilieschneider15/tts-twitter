@@ -6,5 +6,5 @@ class User < ApplicationRecord
 
   has_many :tweets
 
-
+  mount_uploader :avatar, AvatarUploader
 end

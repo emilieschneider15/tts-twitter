@@ -29,6 +29,11 @@
     <%= f.email_field :email, class: 'form-control' %>
   </div>
 
+ <div class="field form-group">
+    <strong>Upload a profile pic:</strong>strong>
+    <%= f.file_field :avatar, class: 'form-control' %>
+  </div>
+
   <div class="field">
     <%= f.label :password %>
     <% if @minimum_password_length %>
