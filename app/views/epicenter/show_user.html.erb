@@ -10,7 +10,7 @@
     <% else %>
         <% if current_user.id != @user.id %>
         <%= link_to "Follow", now_following_path(id: @user.id), class: "btn btn-primary" %>
-    <% end %>
+     <% end %>
     <% end %>
 </p>
 
